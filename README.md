@@ -40,8 +40,6 @@ A solução completa inclui:
 
 2. **Código-fonte reprodutível**:  
    - Notebooks ou scripts organizados para permitir reprodução do fluxo do início ao fim.  
-   - `requirements.txt` com as dependências.  
-   - Versão da linguagem e bibliotecas principais.  
 
 3. **Documentação da abordagem**:  
    - Definição da variável target e justificativa.  
@@ -56,8 +54,7 @@ A solução é avaliada de acordo com:
 - Definição clara e justificada da **variável target**.  
 - Qualidade da **política de crédito** proposta.  
 - Uso eficiente das informações de clientes, contratos e pagamentos.  
-- Clareza, organização e **reprodutibilidade do código**.  
-- Viabilidade da solução em **cenário de produção** (tempo real).  
+- Clareza, organização e **reprodutibilidade do código**.
 
 ---
 
@@ -73,12 +70,9 @@ A solução é avaliada de acordo com:
 ## 🚀 Estrutura do Repositório
 ```
 
-├── notebooks/              # Jupyter notebooks de exploração e modelagem
-├── src/                    # Scripts Python organizados por módulos
-├── data/                   # Diretório para armazenar dados (não versionados)
-├── requirements.txt        # Dependências do projeto
+├── Notebook.ipynb/              # Notebook de exploração e modelagem
+├── data/                   # Diretório com os dados utilizados, bem como submissao_case.csv
 ├── README.md               # Documentação do projeto
-└── submissao\_case.csv      # Arquivo de submissão final
 
 ```
 
